@@ -1,0 +1,154 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.15
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Jeff Cron, University of Evansville, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.15.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARMCM3.DLL V5.15.0
+Dialog DLL:      DCM.DLL V1.13.2.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.15.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.5.0
+ 
+<h2>Project:</h2>
+C:\Users\aa472\Desktop\Trying A level (3)\Trying A level\test\ee454p2\454p2.uvprojx
+Project File Date:  04/03/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling ic2.c...
+stml432kc.h(145): warning:  #1-D: last line of file ends without a newline
+  #define LED_OFF (1 << (3+16))
+ic2.c(7): warning:  #1295-D: Deprecated declaration I2C1_Init - give arg types
+  void I2C1_Init(); 
+ic2.c(8): warning:  #1295-D: Deprecated declaration I2C1_Stop - give arg types
+  void I2C1_Stop();
+ic2.c(9): warning:  #1295-D: Deprecated declaration I2C1_WaitLineIdle - give arg types
+  void I2C1_WaitLineIdle();
+ic2.c(12): warning:  #1295-D: Deprecated declaration I2C3_Init - give arg types
+  void I2C3_Init();
+ic2.c(13): warning:  #1295-D: Deprecated declaration I2C3_Stop - give arg types
+  void I2C3_Stop();
+ic2.c(14): warning:  #1295-D: Deprecated declaration I2C3_WaitLineIdle - give arg types
+  void I2C3_WaitLineIdle();
+ic2.c(22): warning:  #1295-D: Deprecated declaration shift1 - give arg types
+  int shift1();
+ic2.c(23): warning:  #1295-D: Deprecated declaration shift2 - give arg types
+  int shift2();
+ic2.c(27): warning:  #1295-D: Deprecated declaration ask_for_placement - give arg types
+  void ask_for_placement();
+ic2.c(28): warning:  #1295-D: Deprecated declaration check_for_winner - give arg types
+  int check_for_winner();
+ic2.c(29): warning:  #1295-D: Deprecated declaration player1_guess - give arg types
+  char player1_guess();
+ic2.c(30): warning:  #1295-D: Deprecated declaration player2_guess - give arg types
+  char player2_guess();
+ic2.c(45): warning:  #1295-D: Deprecated declaration win - give arg types
+  void win();
+ic2.c(46): warning:  #1295-D: Deprecated declaration selectionMade - give arg types
+  void selectionMade();
+ic2.c(95): warning:  #111-D: statement is unreachable
+        return 0;
+ic2.c(51): warning:  #550-D: variable "winner" was set but never used
+        char winner = 0;
+ic2.c(222): warning:  #68-D: integer conversion resulted in a change of sign
+        
+ic2.c(223): warning:  #68-D: integer conversion resulted in a change of sign
+        
+ic2.c(224): warning:  #68-D: integer conversion resulted in a change of sign
+        
+ic2.c(226): warning:  #68-D: integer conversion resulted in a change of sign
+        
+ic2.c(235): warning:  #61-D: integer operation result is out of range
+        
+ic2.c(243): warning:  #68-D: integer conversion resulted in a change of sign
+        
+ic2.c(245): warning:  #68-D: integer conversion resulted in a change of sign
+        
+ic2.c(248): warning:  #68-D: integer conversion resulted in a change of sign
+        
+ic2.c(266): warning:  #68-D: integer conversion resulted in a change of sign
+                tmpreg &= ~
+ic2.c(300): warning:  #68-D: integer conversion resulted in a change of sign
+        
+ic2.c(301): warning:  #68-D: integer conversion resulted in a change of sign
+        
+ic2.c(302): warning:  #68-D: integer conversion resulted in a change of sign
+        
+ic2.c(305): warning:  #68-D: integer conversion resulted in a change of sign
+        
+ic2.c(314): warning:  #61-D: integer operation result is out of range
+        
+ic2.c(322): warning:  #68-D: integer conversion resulted in a change of sign
+        
+ic2.c(324): warning:  #68-D: integer conversion resulted in a change of sign
+        
+ic2.c(327): warning:  #68-D: integer conversion resulted in a change of sign
+        
+ic2.c(345): warning:  #68-D: integer conversion resulted in a change of sign
+                tmpreg &= ~
+ic2.c(410): warning:  #186-D: pointless comparison of unsigned integer with zero
+                if(receivedData[0] >= 0 && receivedData[0] <= 7){
+ic2.c(375): warning:  #550-D: variable "Recieved_Address" was set but never used
+        char Recieved_Address; 
+ic2.c(460): warning:  #186-D: pointless comparison of unsigned integer with zero
+                if(receivedData[0] >= 0 && receivedData[0] <= 7){
+ic2.c(431): warning:  #550-D: variable "Recieved_Address" was set but never used
+        char Recieved_Address;
+ic2.c(507): warning:  #61-D: integer operation result is out of range
+        
+VIC_ISER0 |= (1<<31); //I2C1 interrupt initialize
+ic2.c(507): warning:  #68-D: integer conversion resulted in a change of sign
+        
+VIC_ISER0 |= (1<<31); //I2C1 interrupt initialize
+ic2.c(561): warning:  #1-D: last line of file ends without a newline
+  }
+ic2.c: 42 warnings, 0 errors
+linking...
+.\Objects\454p2.axf: Warning: L6988W: Ignoring unknown patch sdcomp-29491-629360.
+Program Size: Code=3084 RO-data=428 RW-data=24 ZI-data=1664  
+Finished: 0 information, 1 warning and 0 error messages.
+".\Objects\454p2.axf" - 0 Error(s), 43 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.3.0.pack
+                ARM::CMSIS:CORE:5.1.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32L4xx_DFP.2.2.0.pack
+                Keil::Device:Startup:1.3.1
+                STMicroelectronics STM32L4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.3.1
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\aa472\Desktop\Trying A level (3)\Trying A level\test\ee454p2\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\2.2.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.1
+
+   * Component: Keil::Device:Startup:1.3.1
+      Source file:   MDK\Device\Source\ARM\STM32L4xx_SB_OPT.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h
+      Source file:   Drivers\CMSIS\Device\ST\STM32L4xx\Source\Templates\arm\startup_stm32l432xx.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32L4xx\Source\Templates\system_stm32l4xx.c
+</pre>
+</body>
+</html>
